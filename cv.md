@@ -46,7 +46,7 @@ I don't have much experience in programming but I have ability to learn fast and
 Ukrainian Engineering and Pedagogical Academy 
 1999-2004 Mechanical Engineer, Diploma in Machinery and Technology
 
-## Languages: 
+## Languages 
 
 * Russian -  native language
 * Ukrainian – Speak fluently
