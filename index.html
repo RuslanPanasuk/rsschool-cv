@@ -19,6 +19,8 @@
         <li class="nav__item"><a class="nav__link link link title" href="#learning">I'm learning</a></li>
         <li class="nav__item"><a class="nav__link link link title" href="#about">About me</a></li>
         <li class="nav__item"><a class="nav__link link link title" href="#experience">My experience</a></li>
+        <li class="nav__item"><a class="nav__link link link title" href="#code-example">Code example</a></li>
+        <li class="nav__item"><a class="nav__link link link title" href="#projects">Projects</a></li>
         <li class="nav__item"><a class="nav__link link link title" href="#education">Education</a></li>
       </ul>
     </nav>
@@ -71,7 +73,7 @@
         I am ambitious, reliable, proactive and results oriented person who likes people and teamworking. But most of all I like coding and solving difficulties. 
         I don't have much experience in programming but I have ability to learn fast and I try to practice coding as much as possible.</p>
       </section>
-      <section class="expirience">
+      <section class="experience" id="experience">
         <h2 class="title">My experience</h2>
         <ul>
           <li>Hillel QA Manual course</li>
@@ -81,8 +83,42 @@
           <li>Udemy Full JavaScript course + React - from zero to result</li>
           <li>Udemy Rob Percival. Web developer 2.0</li>
         </ul>
+      </section>      
+      <section class="code-example" id="code-example">
+        <h2 class="title">Code example</h2>
+<pre>
+<code>
+function mergeArrays(arr1, arr2) {
+  let arr = [...arr1];
+  arr2.<span class="green">forEach</span>((element) => {
+    if (arr.<span class="green">every</span>(item => item !== element)) arr.<span class="green">push</span>(element);
+  })
+  return arr.<span class="green">sort</span>((a, b) => a - b);  
+}
+</code>
+</pre>
       </section>
-      <section class="education">
+      <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="projects__content">
+          <div class="projects__item">
+            <a class="project__link link" href="https://ruslanpanasuk.github.io/The-Withcher/">
+              <img class="project__img" src="./img/1.jpg" alt="Witcher project image">
+            </a>
+          </div>
+          <div class="projects__item">
+            <a class="project__link link" href="https://ruslanpanasuk.github.io/WORDPRESS/">
+              <img class="project__img" src="./img/2.jpg" alt="wordpress project image">
+            </a>
+          </div>
+          <div class="projects__item">
+            <a class="project__link link" href="https://ruslanpanasuk.github.io/Food/">
+              <img class="project__img" src="./img/3.jpg" alt="food project image">
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="education" id="education">
         <h2 class="title">Education</h2>
         <p>Ukrainian Engineering and Pedagogical Academy<br> 
             1999-2004 Mechanical Engineer, Diploma in Machinery and Technology</p>
